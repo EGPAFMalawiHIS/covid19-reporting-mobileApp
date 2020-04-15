@@ -1,0 +1,18 @@
+1. PoC we shared the released notes last week. Now we are adding drill down to all disaggregated reports.
+-PoC: we will be working on the shared issues this week .and also supporting the reporting if needed.
+DHA called this morning asking to work together on the downtime register design so I will concentrate on . that today
+
+
+The released notes will be shared today but we are still waiting from Paul / Efrida's team on how the added migration cleaning reports are behaving
+
+We shared last week on the cleaning tools but we have not yet gotten feedback. dev team to follow up
+But overall the system is ready to be deployed
+
+	
+
+----------------------------------------------------
+
+- Rerun of the reports POC
+
+E-mastercard
+- Today testing and training for internal HIS	

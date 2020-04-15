@@ -1,0 +1,88 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      COVID19 Reporting Malawi
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+        <ion-card class="action-card">
+          <img class="header-img" src="/assets/card-top-img.png" />
+        </ion-card>
+
+  <ion-card class="action-card">
+          
+         
+          <ion-card-content>
+            
+            <ion-grid>
+             
+              <ion-row>
+                <ion-col offset-4>
+                  <ion-item-divider>
+                    <ion-label>
+                      Confirmed Cases
+                    </ion-label>
+                  </ion-item-divider>
+                  <div>126</div>
+                </ion-col>
+              </ion-row>
+
+               <ion-row>
+                <ion-col offset-4>
+                  <ion-item-divider>
+                    <ion-label>
+                      Tested 
+                    </ion-label>
+                  </ion-item-divider>
+                  <div>126</div>
+                </ion-col>
+                <ion-col>
+                  <ion-item-divider>
+                    <ion-label>
+                      Negative
+                    </ion-label>
+                  </ion-item-divider>
+                  <div>0</div>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col offset-4>
+                  <ion-item-divider>
+                    <ion-label>
+                      Positive
+                    </ion-label>
+                  </ion-item-divider>
+                  <div>4</div>
+                </ion-col>
+                <ion-col>
+                  <ion-item-divider>
+                    <ion-label>
+                      ART Patients
+                    </ion-label>
+                  </ion-item-divider>
+                  <div>0</div>
+                </ion-col>
+              </ion-row>
+
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+
+
+
+   <ion-card class="action-card">
+    
+    <ion-card-content>
+      <highcharts-chart 
+  [Highcharts]="Highcharts"
+  [options]="chartOptions"
+  style="width: 100%; height: 30%; display: block;"
+></highcharts-chart>
+      <!--<div id="highcharts" style="width:100%; height:30%;"></div>-->
+    </ion-card-content>
+  </ion-card>
+
+ 
+</ion-content>
